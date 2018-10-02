@@ -1,0 +1,57 @@
+\documentclass[
+ a4paper,twocolumn,showpacs,aip,groupedaddress,%
+  eqsecnum,notitlepage,showkeys,cha,longbibliography,10pt
+]{revtex4-1}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{amsmath,latexsym}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{tikz}
+\usepackage{natbib}
+\usepackage{float}
+\usepackage[hyperref]{}
+\usepackage[export]{adjustbox}
+
+
+\usepackage[a4paper,top=1.8cm,bottom=1.8cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage[skip=5pt, font=scriptsize, labelfont=bf, justification=raggedright]{caption}
+
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\graphicspath{ {Images/} }
+
+\begin{document}
+
+\title{\LARGE{Fabrication and Measurement of a Niobium SQUID}}
+
+\author{Lindsey Keary}
+\affiliation{ 
+Student Number : 17099595, l.keary.17@ucl.ac.uk, University College London
+}
+\date{\today}
+
+\begin{footnotesize}
+\input{abstract}
+\end{footnotesize}
+
+\maketitle
+
+% \input{leadpara}
+\begin{footnotesize}
+\input{intro}
+\input{section1}
+\input{section2}
+\input{section3}
+\end{footnotesize}
+
+
+\bibliographystyle{ieeetr}
+\tiny
+\bibliography{main}
+
+\end{document}
